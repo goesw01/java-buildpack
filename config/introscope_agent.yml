@@ -15,6 +15,6 @@
 
 # Configuration for the CA Wily framework
 ---
-repository_root: "http://isl-dsdc.ca.com/artifactory/apm-third-party-local/com/ca/apm/libs/docker/extension/docker-utility/cf-javaextension-Saas-2/"
+repository_root: "http://isl-dsdc.ca.com/artifactory/apm-third-party-local/com/ca/apm/libs/docker/extension/docker-utility/cf-javaextension-Swati-cloud/"
 version: 10.7.+
 default_agent_name: $(ruby -e "require 'json' ; puts JSON.parse(ENV['VCAP_APPLICATION'])['application_name']")
